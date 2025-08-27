@@ -13,6 +13,6 @@
   4) ```cmake -B build -S .```
   5) ```cmake --build build```
 
-  > For release build: ```cmake -B build-release -S . -DCMAKE_BUILD_TYPE=Release```
+  > For release build: ```cmake -B build-release -S . -DCMAKE_BUILD_TYPE=Release```\
   > for debug build: ```cmake -B build -S . -DCMAKE_BUILD_TYPE=Debug```
  
