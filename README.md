@@ -6,11 +6,12 @@
   - System installation of wxwidgets
 
   ## Steps
-  1) clone the repo: 'git clone https://github.com/Ozndo1241/SuperTicTacToe'
-  2) <sub>cd SuperTicTacToe</sub>
-  3) 'mkdir build'
-  4) 'cmake -B build -S .'
-  5) 'cmake --build build'
+  
+  1) ```git clone https://github.com/Ozndo1241/SuperTicTacToe```
+  2) ```cd SuperTicTacToe```
+  3) ```mkdir build```
+  4) ```cmake -B build -S .```
+  5) ```cmake --build build```
 
   > For release build: 'cmake -B build-release -S . -DCMAKE_BUILD_TYPE=Release'
   > for debug build: 'cmake -B build -S . -DCMAKE_BUILD_TYPE=Debug'
